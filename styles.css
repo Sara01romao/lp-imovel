@@ -114,7 +114,6 @@ a{
 
 
 .info{
-    border: 1px solid red;
     height: 50vh;
     display: flex;
     align-items: center;
@@ -141,7 +140,6 @@ a{
 
 .card-detalhes-home{
     max-width:100%;
-    border: 1px solid red;
     position: absolute;
     bottom: -40px;
     left: 0;
@@ -202,19 +200,19 @@ a{
 /**/
 
 .sobre{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .sobre-info-container{
     display: flex;
-    border: 1px solid rgb(177, 146, 146);
+    
    
 }
 
 .sobre-txt{
     flex: 1;
     padding: 20px;
-    border: 1px solid green;
+   
 }
 
 .sobre-txt p{
@@ -225,10 +223,9 @@ a{
 
 .sobre-detalhes{
   display: flex;
-  border: 1px solid red;
   gap: 0px 50px;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .img-sobre{
@@ -246,6 +243,9 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 10px 40px;
+    padding: 0px 14px 10px;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
 }
 
 .sobre-detalhes-group p{
@@ -257,6 +257,53 @@ a{
 
 }
 
+.preco-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px 10px;
+    margin-top: 30px;
+}
+
+
+
+.preco-txt small{
+    font-size: 16px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.preco-txt h3{
+    font-size: 2rem;
+    
+}
+
+
+.btn-contato{
+    height: 50px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    max-width: 160px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    
+   
+}
+
+.img-cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.img-imoveis{
+    margin-top: 50px;
+}
+
 @media screen and (max-width:768px) {
     .sobre-info-container{
         flex-direction: column;
@@ -265,6 +312,45 @@ a{
     .img-sobre img{
         padding: 10px;
     }
+
+   
     
 }
 
+
+@media screen and (max-width:425px) {
+   
+    .preco-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .btn-contato{
+        margin: 0 auto;
+    }
+
+}
+
+.glide__slides .glide__slide{
+    border: 1px solid red;
+    
+
+}
+
+.glide__slides .glide__slide img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.glide__arrow{
+    background: #ffffff2d !important;
+}
+
+
+.glide__arrow.glide__arrow--next{
+    position: absolute ;
+    right: 0px ;
+}

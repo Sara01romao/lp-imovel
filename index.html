@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.theme.css">
     
+
     <title>Casa a Venda</title>
 </head>
 <body>
@@ -179,14 +182,46 @@
 
                        
                     </div>
-
-                    <div>
-                        <h3>R$500.000</h3>
+                   
+                    <div class="preco-container">
+                        <div class="preco-txt">
+                            <small>São Paulo -SP</small>
+                            <h3>R$500.000</h3>
+                          
+                        </div>
+    
+                        <a href="" class="btn-contato">Entrar em Contato</a>
                     </div>
+                    
                </div>
 
                
            </div>
+
+           <div class="glide img-imoveis">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide"><img src="./imgs/casa-img1.png" alt="piscina"></li>
+                        <li class="glide__slide"><img src="./imgs/casa-img2.png" alt="Quarto"></li>
+                        <li class="glide__slide"><img src="./imgs/casa-img3.png" alt=" Design Elegante"></li>
+                    </ul>
+                </div>
+
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--prev" data-glide-dir="<">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5757 19.895L11.4917 20.979C11.0327 21.438 10.2905 21.438 9.83643 20.979L0.344237 11.4917C-0.114747 11.0327 -0.114747 10.2905 0.344237 9.83643L9.83642 0.344238C10.2954 -0.114746 11.0376 -0.114746 11.4917 0.344238L12.5757 1.42822C13.0395 1.89209 13.0298 2.64893 12.5562 3.10303L6.67236 8.7085L20.7056 8.70849C21.355 8.70849 21.8774 9.23096 21.8774 9.88037L21.8774 11.4429C21.8774 12.0923 21.355 12.6147 20.7056 12.6147L6.67236 12.6147L12.5562 18.2202C13.0347 18.6743 13.0444 19.4312 12.5757 19.895Z" fill="black"/>
+                        </svg>
+                    </button>
+                    
+                    <button class="glide__arrow glide__arrow--next" data-glide-dir=">">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.30176 1.42822L10.3857 0.344238C10.8447 -0.114746 11.5869 -0.114746 12.041 0.344238L21.5332 9.83154C21.9922 10.2905 21.9922 11.0327 21.5332 11.4868L12.041 20.979C11.582 21.438 10.8398 21.438 10.3857 20.979L9.30176 19.895C8.83789 19.4312 8.84766 18.6743 9.32129 18.2202L15.2051 12.6147H1.17188C0.522461 12.6147 0 12.0923 0 11.4429V9.88037C0 9.23096 0.522461 8.7085 1.17188 8.7085H15.2051L9.32129 3.10303C8.84277 2.64893 8.83301 1.89209 9.30176 1.42822Z" fill="black"/>
+                        </svg>
+                            
+                    </button>
+                </div>
+          </div>
 
         </div>
 
@@ -202,5 +237,36 @@
             </div>
         </div>
     </section>
+    
+
+    
+   
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js" integrity="sha512-2sI5N95oT62ughlApCe/8zL9bQAXKsPPtZZI2KE3dznuZ8HpE2gTMHYzyVN7OoSPJCM1k9ZkhcCo3FvOirIr2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        var glide = new Glide('.glide', {
+        perView: 3,
+        
+        breakpoints: {
+            1024: {
+            perView: 3
+            },
+            600: {
+            perView: 2
+            },
+            425: {
+            perView: 1
+            }
+        }
+        })
+
+        glide.mount()
+       
+    </script>
+
+
+     
 </body>
 </html>
