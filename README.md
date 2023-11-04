@@ -1,4 +1,5 @@
- <img  align="center" max-width="auto" height="auto"  src="https://github.com/Sara01romao/lp-imovel/assets/46323667/9c650d48-2388-4eed-b1cf-cb82077cda3e">
+ <img  align="center" max-width="auto" height="auto"  src="https://github.com/Sara01romao/lp-imovel/assets/46323667/e329ab40-7638-4b60-ad54-8959801f6565">
+
 
 
 
