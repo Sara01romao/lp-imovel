@@ -12,7 +12,7 @@ Landing page para apresentação de imóvel no mercado imobiliário.
 Destacando as principais características e localização de um imóvel no mercado imobiliário.
 
 
-  [![Deploy with Vercel](https://vercel.com/button)](https://doar-animais.netlify.app/)
+  [![Deploy with Vercel](https://vercel.com/button)](https://landingpage-imobiliaria.netlify.app/)
 
 ## :rocket: Tecnologias Usadas
 Front-end 
